@@ -29,7 +29,13 @@
     "version": "chmod +x ../.deploy/setDeploymentVersion && ../.deploy/setDeploymentVersion codenerd",
     "restart": "cd ~/projects/cleverbeagle/.deploy && kubectl --kubeconfig='kubectl_config' -n default rollout restart deployment codenerd",
     "backup": "chmod +x .mongodb-backups/dump && ./.mongodb-backups/dump",
-    "restore": "chmod +x .mongodb-backups/restore && ./.mongodb-backups/restore"
+    "restore": "chmod +x .mongodb-backups/restore && ./.mongodb-backups/restore",
+    "test": "jest",
+    "test-watch": "jest --watch --verbose false",
+    "test-e2e": "testcafe opera ui/**/*.e2e.js",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
   },
   "dependencies": {
     "@babel/runtime": "^7.11.2",
@@ -46,6 +52,7 @@
     "body-parser": "^1.19.0",
     "commonmark": "^0.29.0",
     "core-js": "^3.1.4",
+    "docz": "^2.3.1",
     "file-saver": "^2.0.2",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
@@ -102,6 +109,9 @@
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
     "testcafe": "^1.3.3"
+  },
+  "resolutions": {
+    "graphql": "^14.4.2"
   },
   "eslintConfig": {
     "parser": "babel-eslint",

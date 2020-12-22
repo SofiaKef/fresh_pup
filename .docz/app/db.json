@@ -1,0 +1,2361 @@
+{
+  "config": {
+    "title": "Codenerd",
+    "description": "Code school for kids.",
+    "menu": [],
+    "version": "0.2.0",
+    "repository": "https://cleverbeagle/cleverbeagle/pup",
+    "native": false,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "History.md",
+      "value": {
+        "id": "e1bbd4f15e3b63427b4261e05b948ea8",
+        "filepath": "History.md",
+        "fullpath": "F:\\fresh_pup\\History.md",
+        "link": "",
+        "hidden": false,
+        "slug": "history",
+        "route": "/history",
+        "name": "History",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "v221-august-26th-2020",
+            "depth": 2,
+            "value": "v2.2.1, August 26th, 2020"
+          },
+          {
+            "slug": "v220-august-26th-2020",
+            "depth": 2,
+            "value": "v2.2.0, August 26th, 2020"
+          },
+          {
+            "slug": "v210-july-29th-2019",
+            "depth": 2,
+            "value": "v2.1.0, July 29th, 2019"
+          },
+          {
+            "slug": "v201-november-15th-2018",
+            "depth": 2,
+            "value": "v2.0.1, November 15th, 2018"
+          },
+          {
+            "slug": "v200-november-9th-2018",
+            "depth": 2,
+            "value": "v2.0.0, November 9th, 2018"
+          },
+          {
+            "slug": "v161-june-26th-2018",
+            "depth": 2,
+            "value": "v1.6.1, June 26th, 2018"
+          },
+          {
+            "slug": "v160-june-26th-2018",
+            "depth": 2,
+            "value": "v1.6.0, June 26th, 2018"
+          },
+          {
+            "slug": "v151-may-3rd-2018",
+            "depth": 2,
+            "value": "v1.5.1, May 3rd, 2018"
+          },
+          {
+            "slug": "v150-april-26th-2018",
+            "depth": 2,
+            "value": "v1.5.0, April 26th, 2018"
+          },
+          {
+            "slug": "v140-february-12th-2018",
+            "depth": 2,
+            "value": "v1.4.0, February 12th, 2018"
+          },
+          {
+            "slug": "v130-november-13th-2017",
+            "depth": 2,
+            "value": "v1.3.0, November 13th, 2017"
+          },
+          {
+            "slug": "v122-september-30th-2017",
+            "depth": 2,
+            "value": "v1.2.2, September 30th, 2017"
+          },
+          {
+            "slug": "v121-september-24th-2017",
+            "depth": 2,
+            "value": "v1.2.1, September 24th, 2017"
+          },
+          {
+            "slug": "v120-september-7th-2017",
+            "depth": 2,
+            "value": "v1.2.0, September 7th, 2017"
+          },
+          {
+            "slug": "v111-august-6th-2017",
+            "depth": 2,
+            "value": "v1.1.1, August 6th, 2017"
+          },
+          {
+            "slug": "v110-august-1st-2017",
+            "depth": 2,
+            "value": "v1.1.0, August 1st, 2017"
+          },
+          {
+            "slug": "v103-july-9th-2017",
+            "depth": 2,
+            "value": "v1.0.3, July 9th, 2017"
+          },
+          {
+            "slug": "v102-june-27th-2017",
+            "depth": 2,
+            "value": "v1.0.2, June 27th, 2017"
+          },
+          {
+            "slug": "v101-june-14th-2017",
+            "depth": 2,
+            "value": "v1.0.1, June 14th, 2017"
+          },
+          {
+            "slug": "v100-june-13th-2017",
+            "depth": 2,
+            "value": "v1.0.0, June 13th, 2017"
+          }
+        ]
+      }
+    },
+    {
+      "key": "README.md",
+      "value": {
+        "id": "04c6e90faac2675aa89e2176d2eec7d8",
+        "filepath": "README.md",
+        "fullpath": "F:\\fresh_pup\\README.md",
+        "link": "",
+        "hidden": false,
+        "slug": "readme",
+        "route": "/readme",
+        "name": "Readme",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "pup",
+            "depth": 3,
+            "value": "Pup"
+          },
+          {
+            "slug": "1-infrastructure",
+            "depth": 3,
+            "value": "1. Infrastructure"
+          },
+          {
+            "slug": "where-is-dns-configured-for-this-app",
+            "depth": 4,
+            "value": "Where is DNS configured for this app?"
+          },
+          {
+            "slug": "where-does-the-database-live",
+            "depth": 4,
+            "value": "Where does the database live?"
+          },
+          {
+            "slug": "where-does-this-app-live",
+            "depth": 4,
+            "value": "Where does this app live?"
+          },
+          {
+            "slug": "how-does-the-ssl-work",
+            "depth": 4,
+            "value": "How does the SSL work?"
+          },
+          {
+            "slug": "2-settings--configuration",
+            "depth": 3,
+            "value": "2. Settings & Configuration"
+          },
+          {
+            "slug": "how-do-i-load-the-settings-file",
+            "depth": 4,
+            "value": "How do I load the settings file?"
+          },
+          {
+            "slug": "how-do-i-access-the-accounts-used-in-the-settings-files",
+            "depth": 4,
+            "value": "How do I access the accounts used in the settings files?"
+          },
+          {
+            "slug": "3-dependencies",
+            "depth": 3,
+            "value": "3. Dependencies"
+          },
+          {
+            "slug": "4-commands",
+            "depth": 3,
+            "value": "4. Commands"
+          },
+          {
+            "slug": "dev",
+            "depth": 4,
+            "value": "dev"
+          },
+          {
+            "slug": "staging",
+            "depth": 4,
+            "value": "staging"
+          },
+          {
+            "slug": "production",
+            "depth": 4,
+            "value": "production"
+          },
+          {
+            "slug": "test",
+            "depth": 4,
+            "value": "test"
+          },
+          {
+            "slug": "test-watch",
+            "depth": 4,
+            "value": "test-watch"
+          },
+          {
+            "slug": "test-e2e",
+            "depth": 4,
+            "value": "test-e2e"
+          },
+          {
+            "slug": "5-git--branching",
+            "depth": 3,
+            "value": "5. Git & Branching"
+          },
+          {
+            "slug": "6-testing",
+            "depth": 3,
+            "value": "6. Testing"
+          },
+          {
+            "slug": "test-users",
+            "depth": 4,
+            "value": "Test Users"
+          },
+          {
+            "slug": "test-data",
+            "depth": 4,
+            "value": "Test Data"
+          },
+          {
+            "slug": "writing-tests",
+            "depth": 4,
+            "value": "Writing Tests"
+          },
+          {
+            "slug": "7-releasing",
+            "depth": 3,
+            "value": "7. Releasing"
+          },
+          {
+            "slug": "performing-a-release",
+            "depth": 4,
+            "value": "Performing a release"
+          },
+          {
+            "slug": "tagging-releases-on-master",
+            "depth": 4,
+            "value": "Tagging releases on master"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "ui/components/AccountPageFooter/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AccountPageFooter",
+          "methods": [],
+          "actualName": "AccountPageFooter",
+          "props": {
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/AdminUserProfile/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUserProfile",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleDeleteUser",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            },
+            {
+              "name": "generatePassword",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            }
+          ],
+          "actualName": "AdminUserProfile",
+          "props": {
+            "user": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "removeUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/AdminUserSettingsModal/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUserSettingsModal",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleSetKeyName",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "AdminUserSettingsModal",
+          "props": {
+            "show": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "onHide": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "setting": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "addUserSetting": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUserSetting": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/AdminUsersList/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUsersList",
+          "methods": [
+            {
+              "name": "renderPagination",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            }
+          ],
+          "actualName": "AdminUsersList",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "search": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "perPage": {
+              "type": {
+                "name": "number"
+              },
+              "required": true,
+              "description": ""
+            },
+            "currentPage": {
+              "type": {
+                "name": "number"
+              },
+              "required": true,
+              "description": ""
+            },
+            "onChangePage": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Authenticated/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Authenticated",
+          "methods": [],
+          "actualName": "Authenticated",
+          "props": {
+            "loggingIn": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "authenticated": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "component": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "setAfterLoginPath": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "path": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "exact": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/AuthenticatedNavigation/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AuthenticatedNavigation",
+          "methods": [],
+          "actualName": "AuthenticatedNavigation",
+          "props": {
+            "name": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "userId": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Authorized/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Authorized",
+          "methods": [
+            {
+              "name": "checkIfAuthorized",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            }
+          ],
+          "actualName": "Authorized",
+          "props": {
+            "loading": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "allowedRoles": {
+              "type": {
+                "name": "array"
+              },
+              "required": true,
+              "description": ""
+            },
+            "allowedGroup": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "userId": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "component": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "path": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "exact": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "userRoles": {
+              "type": {
+                "name": "array"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "[]",
+                "computed": false
+              }
+            },
+            "userIsInRoles": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "pathAfterFailure": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'/login'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/BlankState/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "BlankState",
+          "methods": [],
+          "actualName": "BlankState",
+          "props": {
+            "image": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "icon": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "subtitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "action": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/CommentComposer/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "CommentComposer",
+          "methods": [],
+          "actualName": "CommentComposer",
+          "props": {
+            "documentId": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "mutate": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Comments/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Comments",
+          "methods": [],
+          "actualName": "Comments",
+          "props": {
+            "documentId": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "comments": {
+              "type": {
+                "name": "array"
+              },
+              "required": true,
+              "description": ""
+            },
+            "sortBy": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "onChangeSortBy": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Content/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Content",
+          "methods": [],
+          "actualName": "Content",
+          "props": {
+            "content": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/DocumentEditor/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "DocumentEditor",
+          "methods": [
+            {
+              "name": "handleUpdateDocument",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "mutate",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleSetVisibility",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "mutate",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "isPublic",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleRemoveDocument",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "mutate",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "DocumentEditor",
+          "props": {
+            "doc": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Footer/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Footer",
+          "methods": [],
+          "actualName": "Footer"
+        }
+      ]
+    },
+    {
+      "key": "ui/components/GDPRConsentModal/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "GDPRConsentModal",
+          "methods": [
+            {
+              "name": "handleSaveSettings",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            }
+          ],
+          "actualName": "GDPRConsentModal",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Icon/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Icon",
+          "methods": [],
+          "actualName": "Icon",
+          "props": {
+            "icon": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "iconStyle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'regular'",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/InputHint/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "InputHint",
+          "methods": [],
+          "actualName": "InputHint",
+          "props": {
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Loading/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Loading",
+          "methods": [],
+          "actualName": "Loading"
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Navigation/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Navigation",
+          "methods": [],
+          "actualName": "Navigation",
+          "props": {
+            "authenticated": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "name": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/OAuthLoginButton/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "OAuthLoginButton",
+          "methods": [],
+          "actualName": "OAuthLoginButton",
+          "props": {
+            "service": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "callback": {
+              "type": {
+                "name": "func"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "(error) => {\r\n  if (error) Bert.alert(error.message, 'danger');\r\n}",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/OAuthLoginButtons/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "OAuthLoginButtons",
+          "methods": [],
+          "actualName": "OAuthLoginButtons",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "emailMessage": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/PageHeader/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "PageHeader",
+          "methods": [],
+          "actualName": "PageHeader",
+          "props": {
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "subtitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Public/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Public",
+          "methods": [],
+          "actualName": "Public",
+          "props": {
+            "loggingIn": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "authenticated": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "component": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "afterLoginPath": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "path": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "exact": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/PublicNavigation/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "PublicNavigation",
+          "methods": [],
+          "actualName": "PublicNavigation"
+        }
+      ]
+    },
+    {
+      "key": "ui/components/SearchInput/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SearchInput",
+          "methods": [],
+          "actualName": "SearchInput",
+          "props": {
+            "placeholder": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'Search...'",
+                "computed": false
+              }
+            },
+            "value": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "onChange": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/SEO/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "SEO",
+          "methods": [],
+          "actualName": "SEO",
+          "props": {
+            "schema": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "description": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "path": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "contentType": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "published": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updated": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "category": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "tags": {
+              "type": {
+                "name": "array"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "[]",
+                "computed": false
+              }
+            },
+            "twitter": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "images": {
+              "type": {
+                "name": "object"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "{}",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/ToggleSwitch/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ToggleSwitch",
+          "methods": [
+            {
+              "name": "toggleSwitch",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "ToggleSwitch",
+          "props": {
+            "id": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "toggled": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "onLabel": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "offLabel": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "onToggle": {
+              "type": {
+                "name": "func"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "() => {}",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/UserSettings/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "UserSettings",
+          "methods": [
+            {
+              "name": "handleUpdateSetting",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "setting",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "renderSettingValue",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "type",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "key",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "value",
+                  "optional": false,
+                  "type": null
+                },
+                {
+                  "name": "onChange",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "UserSettings",
+          "props": {
+            "userId": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            },
+            "isAdmin": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "settings": {
+              "type": {
+                "name": "array"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "[]",
+                "computed": false
+              }
+            },
+            "updateUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "null",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/Validation/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Validation",
+          "methods": [],
+          "actualName": "Validation",
+          "props": {
+            "children": {
+              "type": {
+                "name": "node"
+              },
+              "required": true,
+              "description": ""
+            },
+            "rules": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "messages": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/components/VerifyEmailAlert/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "VerifyEmailAlert",
+          "methods": [],
+          "actualName": "VerifyEmailAlert",
+          "props": {
+            "userId": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "emailVerified": {
+              "type": {
+                "name": "bool"
+              },
+              "required": true,
+              "description": ""
+            },
+            "emailAddress": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "sendVerificationEmail": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/layouts/App/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [
+            {
+              "name": "setPageReady",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            },
+            {
+              "name": "setAfterLoginPath",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "afterLoginPath",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "App",
+          "props": {
+            "loading": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "true",
+                "computed": false
+              }
+            },
+            "userId": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "emailAddress": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "emailVerified": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            },
+            "authenticated": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/AdminUser/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUser",
+          "methods": [],
+          "actualName": "AdminUser",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "removeUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/AdminUsers/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUsers",
+          "methods": [],
+          "actualName": "AdminUsers"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/AdminUserSettings/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "AdminUserSettings",
+          "methods": [
+            {
+              "name": "handleDeleteSetting",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "settingId",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "AdminUserSettings",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "addUserSetting": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUserSetting": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "removeUserSetting": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Documents/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Documents",
+          "methods": [],
+          "actualName": "Documents",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "mutate": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/EditDocument/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "EditDocument",
+          "methods": [],
+          "actualName": "EditDocument",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/ExamplePage/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ExamplePage",
+          "methods": [],
+          "actualName": "ExamplePage"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Index/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Index",
+          "methods": [],
+          "actualName": "Index"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Login/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Login",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "Login"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Logout/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Logout",
+          "methods": [],
+          "actualName": "Logout",
+          "props": {
+            "setAfterLoginPath": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/NotFound/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NotFound",
+          "methods": [],
+          "actualName": "NotFound"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Page/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Page",
+          "methods": [],
+          "actualName": "Page",
+          "props": {
+            "title": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            },
+            "subtitle": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "''",
+                "computed": false
+              }
+            },
+            "content": {
+              "type": {
+                "name": "string"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Privacy/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Privacy",
+          "methods": [],
+          "actualName": "Privacy"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Profile/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Profile",
+          "methods": [
+            {
+              "name": "getUserType",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "user",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleExportData",
+              "docblock": null,
+              "modifiers": [
+                "async"
+              ],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "handleDeleteAccount",
+              "docblock": null,
+              "modifiers": [],
+              "params": [],
+              "returns": null
+            },
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "renderOAuthUser",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "user",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "renderPasswordUser",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "user",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            },
+            {
+              "name": "renderProfileForm",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "user",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "Profile",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "updateUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "removeUser": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            },
+            "client": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/RecoverPassword/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "RecoverPassword",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "RecoverPassword",
+          "props": {
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/ResetPassword/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ResetPassword",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "ResetPassword",
+          "props": {
+            "match": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Signup/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Signup",
+          "methods": [
+            {
+              "name": "handleSubmit",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "form",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "Signup",
+          "props": {
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "sendVerificationEmail": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/Terms/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Terms",
+          "methods": [],
+          "actualName": "Terms"
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/VerifyEmail/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "VerifyEmail",
+          "methods": [],
+          "actualName": "VerifyEmail",
+          "props": {
+            "match": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "sendWelcomeEmail": {
+              "type": {
+                "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/ViewDocument/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ViewDocument",
+          "methods": [
+            {
+              "name": "handleChangeCommentSort",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "ViewDocument",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
