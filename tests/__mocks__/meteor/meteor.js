@@ -1,6 +1,6 @@
 module.exports = {
   Meteor: {
-    absoluteUrl: jest.fn(() => 'http://localhost:3000/'),
+    absoluteUrl: jest.fn(() => 'http://localhost:3210/'),
     Error: jest.fn(),
     isServer: true,
     loginWithPassword: jest.fn(),

@@ -1974,17 +1974,6 @@
       ]
     },
     {
-      "key": "ui/pages/NotFound/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "NotFound",
-          "methods": [],
-          "actualName": "NotFound"
-        }
-      ]
-    },
-    {
       "key": "ui/pages/Page/index.js",
       "value": [
         {
@@ -2019,6 +2008,17 @@
               "description": ""
             }
           }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/NotFound/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "NotFound",
+          "methods": [],
+          "actualName": "NotFound"
         }
       ]
     },
@@ -2290,40 +2290,6 @@
       ]
     },
     {
-      "key": "ui/pages/ViewDocument/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "ViewDocument",
-          "methods": [
-            {
-              "name": "handleChangeCommentSort",
-              "docblock": null,
-              "modifiers": [],
-              "params": [
-                {
-                  "name": "event",
-                  "optional": false,
-                  "type": null
-                }
-              ],
-              "returns": null
-            }
-          ],
-          "actualName": "ViewDocument",
-          "props": {
-            "data": {
-              "type": {
-                "name": "object"
-              },
-              "required": true,
-              "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "ui/pages/VerifyEmail/index.js",
       "value": [
         {
@@ -2349,6 +2315,40 @@
             "sendWelcomeEmail": {
               "type": {
                 "name": "func"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/ViewDocument/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "ViewDocument",
+          "methods": [
+            {
+              "name": "handleChangeCommentSort",
+              "docblock": null,
+              "modifiers": [],
+              "params": [
+                {
+                  "name": "event",
+                  "optional": false,
+                  "type": null
+                }
+              ],
+              "returns": null
+            }
+          ],
+          "actualName": "ViewDocument",
+          "props": {
+            "data": {
+              "type": {
+                "name": "object"
               },
               "required": true,
               "description": ""

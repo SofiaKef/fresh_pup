@@ -87,7 +87,7 @@ The following NPM commands can be used when working on the app.
 $ npm run dev
 ```
 
-Runs the app development server at `http://localhost:3000` and loads the `settings-development.json` file.
+Runs the app development server at `http://localhost:3210` and loads the `settings-development.json` file.
 
 #### staging
 

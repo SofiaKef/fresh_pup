@@ -19,7 +19,7 @@ const getEmailOptions = (user) => {
         subtitle: `Here's how to get started with ${productName}.`,
         productName,
         firstName,
-        welcomeUrl: Meteor.absoluteUrl('documents'), // e.g., returns http://localhost:3000/documents
+        welcomeUrl: Meteor.absoluteUrl('documents'), // e.g., returns http://localhost:3210/documents
       },
     };
   } catch (exception) {

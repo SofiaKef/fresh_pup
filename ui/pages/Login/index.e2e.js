@@ -1,6 +1,6 @@
 import { login, getPageUrl } from '../../../tests/helpers/e2e';
 
-fixture('/login').page('http://localhost:3000/login');
+fixture('/login').page('http://localhost:3210/login');
 
 test('should allow users to login and see their documents', async (browser) => {
   await login({
