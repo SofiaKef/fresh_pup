@@ -2290,40 +2290,6 @@
       ]
     },
     {
-      "key": "ui/pages/VerifyEmail/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "VerifyEmail",
-          "methods": [],
-          "actualName": "VerifyEmail",
-          "props": {
-            "match": {
-              "type": {
-                "name": "object"
-              },
-              "required": true,
-              "description": ""
-            },
-            "history": {
-              "type": {
-                "name": "object"
-              },
-              "required": true,
-              "description": ""
-            },
-            "sendWelcomeEmail": {
-              "type": {
-                "name": "func"
-              },
-              "required": true,
-              "description": ""
-            }
-          }
-        }
-      ]
-    },
-    {
       "key": "ui/pages/ViewDocument/index.js",
       "value": [
         {
@@ -2349,6 +2315,40 @@
             "data": {
               "type": {
                 "name": "object"
+              },
+              "required": true,
+              "description": ""
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "ui/pages/VerifyEmail/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "VerifyEmail",
+          "methods": [],
+          "actualName": "VerifyEmail",
+          "props": {
+            "match": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "history": {
+              "type": {
+                "name": "object"
+              },
+              "required": true,
+              "description": ""
+            },
+            "sendWelcomeEmail": {
+              "type": {
+                "name": "func"
               },
               "required": true,
               "description": ""
