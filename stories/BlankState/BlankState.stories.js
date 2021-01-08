@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { action } from '@storybook/addon-actions';
 import BlankState from './BlankState';
 
 export default {
@@ -9,8 +9,6 @@ export default {
 
 const Template = (args) => <BlankState {...args} />;
 
-const doNothing = () => console.log('does nothing');
-
 export const Documents = Template.bind({});
 Documents.args = {
   icon: { style: 'solid', symbol: 'file-alt' },
@@ -18,7 +16,7 @@ Documents.args = {
   subtitle: 'Add your first document by clicking the button below.',
   action: {
     style: 'success',
-    onClick: doNothing,
+    onClick: action('clicked'),
     label: 'Create Your First Document',
   },
 };
@@ -30,7 +28,7 @@ AdminUserSettings.args = {
   subtitle: 'Add your first setting by clicking the button below.',
   action: {
     style: 'success',
-    onClick: doNothing,
+    onClick: action('clicked'),
     label: 'Create Your First Setting',
   },
 };
