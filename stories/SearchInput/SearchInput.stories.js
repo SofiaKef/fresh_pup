@@ -1,26 +1,33 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import SearchInput from './SearchInput';
 
 export default {
-  title: 'Components/Search Input',
+  title: 'Components/Search',
   component: SearchInput,
+  argTypes: {
+    value: {
+      control: {
+        disable: true,
+      },
+    },
+  },
 };
 
-const Template = (args) => <SearchInput {...args} />;
-
-const doNothing = () => console.log('does nothing');
-
-export const First = Template.bind({});
-First.args = {
-  placeholder: 'Search users...',
-  value: 'something',
-  onChange: doNothing,
+const Template = (args) => {
+  const [value, setValue] = useState(args.value ?? '');
+  return (
+    <SearchInput
+      {...args}
+      onChange={(e) => {
+        setValue(e.target.value);
+      }}
+      value={value}
+    />
+  );
 };
 
-export const Second = Template.bind({});
-Second.args = {
-  placeholder: 'Search users...',
-  value: 'something else',
-  onChange: doNothing,
+export const Search = Template.bind({});
+Search.args = {
+  placeholder: 'Search...',
 };

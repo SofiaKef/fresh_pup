@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Icon from '../dependencies/Icon';
+import Icon from '../../ui/components/Icon';
 import Styles from './SearchInputStyles';
 
 const SearchInput = ({ placeholder, value, onChange }) => (
