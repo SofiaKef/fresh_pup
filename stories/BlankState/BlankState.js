@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Button } from 'react-bootstrap';
-import Icon from '../Icon';
+import Icon from '../dependencies/Icon';
 import Styles from './BlankStateStyles';
 
 const BlankState = ({ image, icon, title, subtitle, action }) => (
